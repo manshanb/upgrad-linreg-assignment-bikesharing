@@ -1,6 +1,6 @@
 # upgrad-linreg-assignment-bikesharing
 
-
+This assignment is a programming assignment to build a multiple linear regression model for the prediction of demand for shared bikes. 
 
 
 ## Table of Contents
@@ -13,19 +13,21 @@
 ## General Information
 - Provide general information about your project here.
 	Build a regression model for the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
-- What is the business probem that your project is trying to solve?
 
-### Objective is to find out
+### What is the business probem that your project is trying to solve?
+   Model the demand for shared bikes with the available independent variables.
+
+#### Objective is to find out
 * Which variables are significant in predicting the demand for shared bikes
 * How well those variables describe the bike demands
 
-- What is the dataset that is being used?
+### What is the dataset that is being used?
 Bike Sharing dataset [here](https://ml-course2-upgrad.s3.amazonaws.com/Linear+Regression+Assignment/Bike+Sharing+Assignment/day.csv) 
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Variables which are significant to predicting the demand for shared bikes
+Based on the analysis, following variables are significant to predicting the demand for shared bikes as per the Linear Regression model built
 * humidity
 * windspeed
 * month
